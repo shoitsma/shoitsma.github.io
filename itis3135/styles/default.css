@@ -1,0 +1,45 @@
+body {
+    text-align: center;
+    background-color: #e6d7ff;
+    color: blueviolet;
+    font-family: Verdana;
+}
+
+img {
+    margin-top: 20px;
+    width: 75%;
+    border-color: blueviolet;
+    border-style: ridge;
+    border-radius: 25px;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: lightcoral;
+}
+
+h2 {
+    text-align: center;
+}
+
+main {
+    text-align: left;
+    margin: 35px;
+}
+
+.bold {
+    font-weight: 800;
+}
+
+.caption {
+    font-style: italic;
+    font-family: 'Trebuchet MS';
+}
+
+.signature {
+    font-style: italic;
+    font-family: 'Gravity';
+}
