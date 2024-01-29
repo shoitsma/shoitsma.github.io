@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ITIS 3135 Tables</title>
+    <link rel="stylesheet" href="styles/default.css">
+</head>
+<body>
+    <header>
+        <h1>Sarah Hoitsma's Sleepy Hamster || ITIS 3135 Tables</h1>
+        <nav>
+            <a href="index.html" class="navbarspacing">Home</a>
+            ||
+            <a href="introduction.html" class="navbarspacing">Introduction</a>
+            ||
+            <a href="contract.html" class="navbarspacing">Contract</a>
+            ||
+            <div class="dropdown">
+                <button class="dropbtn"><u>Exercises</u></button>
+                <div class="dropdown-content">
+                    <a href="tables.html">Tables</a>
+                    <a href="forms.html">Forms</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+	<main>
+		<h2>HTML Tables</h2>
+		<h3>My Tabular Data</h3>
+		<ol>
+			<li> Usagi Tsukino, usako123@gmail.com, 60,000</li>
+			<li> Rei Hino, marsmandela@gmail.com, 120,000</li>
+			<li> Ami Mizuno, amizuno@gmail.com, 200,000</li>
+			<li> Makoto Kino, kinom66@gmail.com.com, 80,000</li>
+			<li> Minako Aino, ainom333@gmail.com, 80,000</li>
+			<li> Haruka Tenou, tenoudrives@gmail.com, 100,000</li>
+			<li> Michiru Kaiou, kaioumichiru@gmail.com, 60,000</li>
+		</ol>
+		<h3>Employee Data in Simple Table</h3>
+		<table class = "table1">
+			<tr>
+				<th>Name</th>
+				<th>Email</th>
+				<th>Salary</th>
+			</tr>
+			<tr>
+				<td>Usagi Tsukino</td>
+				<td>usako123@gmail.com</td>
+				<td>60,000</td>
+			</tr>
+			<tr>
+				<td>Rei Hino</td>
+				<td>marsmandela@gmail.com</td>
+				<td>120,000</td>
+			</tr>
+			<tr>
+				<td>Ami Mizuno</td>
+				<td>amizuno@gmail.com</td>
+				<td>200,000</td>
+			</tr>
+			<tr>
+				<td>Makoto Kino</td>
+				<td>kinom66@gmail.com</td>
+				<td>80,000</td>
+			</tr>
+			<tr>
+				<td>Minako Aino</td>
+				<td>ainom333@gmail.com</td>
+				<td>80,000</td>
+			</tr>
+			<tr>
+				<td>Haruka Tenou</td>
+				<td>tenoudrives@gmail.com</td>
+				<td>100,000</td>
+			</tr>
+			<tr>
+				<td>Michiru Kaiou</td>
+				<td>kaioumichiru@gmail.com</td>
+				<td>60,000</td>
+			</tr>
+		</table>
+		<h3>Employee Data in Complex Table</h3>
+		<figure>
+			<table class = "table2">
+				<tr>
+					<th>Category</th>
+					<th>Name</th>
+					<th>Email</th>
+					<th>Salary</th>
+				</tr>
+				<tr>
+					<th>Boss</th>
+					<td>Ami Mizuno</td>
+					<td>amizuno@gmail.com</td>
+					<td>200,000</td>
+				</tr>
+				<tr>
+					<th rowspan="3">Management</th>
+					<td>Rei Hino</td>
+					<td>marsmandela@gmail.com</td>
+					<td>120,000</td>
+				</tr>
+				<tr>
+					<td>Makoto Kino</td>
+					<td>kinom66@gmail.com</td>
+					<td>80,000</td>
+				</tr>
+				<tr>
+					<td>Minako Aino</td>
+					<td>ainom333@gmail.com</td>
+					<td>80,000</td>
+				</tr>
+				<tr>
+					<th rowspan="3">Sales</th>
+					<td>Haruka Tenou</td>
+					<td>tenoudrives@gmail.com</td>
+					<td>100,000</td>
+				</tr>
+				<tr>
+					<td>Michiru Kaiou</td>
+					<td>kaioumichiru@gmail.com</td>
+					<td>60,000</td>
+				</tr>
+				<tr>
+					<td>Usagi Tsukino</td>
+					<td>usako123@gmail.com</td>
+					<td>60,000</td>
+				</tr>
+				<tr>
+					<th colspan="3">Total Annual Salary Budget: </th>
+					<td>700,000</td>
+				</tr>
+			</table>
+			<figcaption><i>Employee Information</i></figcaption>
+		</figure>
+	</main>
+    <footer>
+        <nav>
+            <a href="https://webpages.charlotte.edu/shoitsma/" class="navbarspacing">Charlotte Webpage</a>
+            ||
+            <a href="https://github.com/shoitsma" class="navbarspacing">GitHub</a>
+            ||
+            <a href="https://shoitsma.github.io/" class="navbarspacing">GitHub.io</a>
+            ||
+            <a href="https://www.freecodecamp.org/shoitsma" class="navbarspacing">freeCodeCamp</a>
+            ||
+            <a href="https://www.codecademy.com/profiles/shoitsma" class="navbarspacing">Codecademy</a>
+            ||
+            <a href="https://www.linkedin.com/in/shoitsma/" class="navbarspacing">LinkedIn</a>
+        </nav>
+		<a href="https://jigsaw.w3.org/html-validator/check/referer">
+			<img src = "images/html_icon.png" alt="HTML referer" class="validator">
+		</a>
+		<a href="https://jigsaw.w3.org/css-validator/check/referer">
+			<img src = "images/css_icon.png" alt="CSS referer" class="validator">
+		</a>
+        <p>Page built by <a href="sleepyhamsterhoitsma.com">Sleepy Hamster Hoitsma</a>&copy; 2024</p>
+    </footer>
+</body>
+</html>

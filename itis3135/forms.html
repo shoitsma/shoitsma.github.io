@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ITIS 3135 Forms</title>
+    <link rel="stylesheet" href="styles/default.css">
+</head>
+<body>
+    <header>
+        <h1>Sarah Hoitsma's Sleepy Hamster || ITIS 3135 Forms</h1>
+        <nav>
+            <a href="index.html" class="navbarspacing">Home</a>
+            ||
+            <a href="introduction.html" class="navbarspacing">Introduction</a>
+            ||
+            <a href="contract.html" class="navbarspacing">Contract</a>
+            ||
+            <div class="dropdown">
+                <button class="dropbtn"><u>Exercises</u></button>
+                <div class="dropdown-content">
+                    <a href="tables.html">Tables</a>
+                    <a href="forms.html">Forms</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br>
+            <label for="phone">Phone Number:</label><br>
+            <input type="text" id="phone" name="phone" required><br>
+            <label for="email">Email Address:</label><br>
+            <input type="text" id="email" name="email" required><br>
+
+            <p>From the list provided what animals do you own?</p>
+
+            <input type="checkbox" id="dog" name="animal" value="dog">
+            <label class="formlabel" for="dog"> Dog</label><br>
+            <input type="checkbox" id="cat" name="animal" value="cat">
+            <label class="formlabel" for="cat"> Cat</label><br>
+            <input type="checkbox" id="hamster" name="animal" value="hamster">
+            <label class="formlabel" for="hamster"> Hamster</label><br>
+            <input type="checkbox" id="mouse" name="animal" value="mouse">
+            <label class="formlabel" for="mouse"> Mouse</label><br>
+            <input type="checkbox" id="bird" name="animal" value="bird">
+            <label class="formlabel" for="bird"> Bird</label><br>
+            
+            <p>Choose your favorite planet:</p>
+
+            <input type="radio" id="moon" name="planet" value="moon">
+            <label class="formlabel" for="moon">Moon</label><br>
+            <input type="radio" id="mars" name="planet" value="mars">
+            <label class="formlabel" for="mars">Mars</label><br>
+            <input type="radio" id="mercury" name="planet" value="mercury">
+            <label class="formlabel" for="mercury">Mercury</label><br>
+            <input type="radio" id="jupiter" name="planet" value="jupiter">
+            <label class="formlabel" for="jupiter">Jupiter</label><br>
+            <input type="radio" id="uranus" name="planet" value="uranus">
+            <label class="formlabel" for="uranus">Uranus</label><br>
+            <input type="radio" id="neptune" name="planet" value="neptune">
+            <label class="formlabel" for="neptune">Neptune</label><br>
+            <input type="radio" id="venus" name="planet" value="venus">
+            <label class="formlabel" for="venus">Venus</label><br>
+            <input type="radio" id="other" name="planet" value="other">
+            <label class="formlabel" for="other">Other</label><br>
+
+            <label for="lang">Choose your Nationality:</label>
+            <select class="formalign" name="lang" id="lang">
+                <option value="us">American</option>
+                <option value="ca">Canadian</option>
+                <option value="fr">French</option>
+                <option value="br">British</option>
+                <option value="jp">Japanese</option>
+                <option value="other">Other</option>
+            </select> <br>
+            
+            <input type="reset" value="Reset" class="formbutton">
+            <input type="submit" value="Submit" class="formbutton">
+
+        </form>
+    </main>
+    <footer>
+        <nav>
+            <a href="https://webpages.charlotte.edu/shoitsma/" class="navbarspacing">Charlotte Webpage</a>
+            ||
+            <a href="https://github.com/shoitsma" class="navbarspacing">GitHub</a>
+            ||
+            <a href="https://shoitsma.github.io/" class="navbarspacing">GitHub.io</a>
+            ||
+            <a href="https://www.freecodecamp.org/shoitsma" class="navbarspacing">freeCodeCamp</a>
+            ||
+            <a href="https://www.codecademy.com/profiles/shoitsma" class="navbarspacing">Codecademy</a>
+            ||
+            <a href="https://www.linkedin.com/in/shoitsma/" class="navbarspacing">LinkedIn</a>
+        </nav>
+        <a href="https://jigsaw.w3.org/html-validator/check/referer">
+			<img src = "images/html_icon.png" alt="HTML referer" class="validator">
+		</a>
+		<a href="https://jigsaw.w3.org/css-validator/check/referer">
+			<img src = "images/css_icon.png" alt="CSS referer" class="validator">
+		</a>
+        <p>Page built by <a href="sleepyhamsterhoitsma.com">Sleepy Hamster Hoitsma</a>&copy; 2024</p>
+    </footer>
+</body>
+</html>
