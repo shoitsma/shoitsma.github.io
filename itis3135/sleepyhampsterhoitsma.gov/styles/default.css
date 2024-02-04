@@ -1,3 +1,14 @@
+.logo {
+    position: relative;
+    padding: 5px;
+    width: 500px;
+
+}
+
+h1 {
+    text-align: center;
+}
+
 main {
     margin-left: 25%;
     margin-right: 25%;
@@ -7,10 +18,14 @@ main {
 body {
     text-align: center;
     background-color: #acdaf0;
-    color: rgb(31, 81, 139);
+    color: #1f518b;
     font-family: Verdana;
 }
 
 a {
-    color: black;
+    color: #1e3231;
+}
+
+ul {
+    list-style-image: url("./images/logo_trans.png");
 }
