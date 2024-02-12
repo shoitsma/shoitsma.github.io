@@ -1,13 +1,40 @@
 img {
     height: 400px;
     width: 400px;
+    margin: 10px;
 }
 
 h2 {
     font-family: "Comic Sans MS";
     font-size: 50px;
+    margin: 15px;
 }
 
 h1 {
-    font-family: "papyrus";
+    font-family: "Papyrus";
+    margin: 20px;
+}
+
+.list {
+    text-align: center;
+}
+
+ul {
+    display: inline-block;
+    text-align: left;
+    background-color: red;
+}
+
+p {
+    align-items: center;
+    font-size: 100px;
+}
+
+.border {
+    border-width: 75px;
+    border-color: green;
+    border-top-style: dashed;
+    border-left-style: dotted;
+    border-right-style: groove;
+    border-bottom-style: double;
 }
