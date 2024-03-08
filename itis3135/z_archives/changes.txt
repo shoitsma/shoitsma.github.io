@@ -1,0 +1,4 @@
+Change between FileZilla and GitHub:
+
+footer.html
+hoitsmaontheputer/index.html

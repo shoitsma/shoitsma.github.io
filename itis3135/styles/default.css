@@ -1,20 +1,27 @@
-body {
-    text-align: center;
-    background-color: #e6d7ff;
-    color: blueviolet;
-    font-family: Verdana;
+/* Rule Overrides For Laptops / Small Screens */
+@media screen and ( min-width: 981px ) and ( max-width: 1400px ) {
+    body {
+        font-size: 18px;
+    }
 }
-
-.profileimg{
-    margin-top: 20px;
-    width: 50%;
-    border-color: blueviolet;
-    border-style: ridge;
-    border-radius: 25px;
+/* Rule Overrides For Tablet Devices */
+@media screen and ( min-width: 601px ) and ( max-width: 980px )  {
+    body {
+        font-size: 14px;
+    }
 }
-
-.validator {
-    margin-top: 1%;
+/* Rule Overrides For Mobile Devices */
+@media screen and ( min-width: 370px ) and ( max-width: 600px ) {
+    * {
+        width: 100%
+    }
+    body {
+        font-size: 12px;
+    }
+    .validator {
+        max-width: 15%;
+        max-height: 15%;
+    }
 }
 
 a {
@@ -25,8 +32,12 @@ a:hover {
     color: lightcoral;
 }
 
-h2 {
+body {
     text-align: center;
+    background-color: #e6d7ff;
+    color: blueviolet;
+    font-family: Verdana;
+    font-size: 20px;
 }
 
 .bold {
@@ -41,15 +52,20 @@ h2 {
     margin-bottom: 50px;
 }
 
+br {
+    margin-top: 15px;
+}
+
+button {
+    margin-top: 40px;
+    background-color: aliceblue;
+    border-color: aliceblue;
+    color: orchid;
+}
+
 .caption {
     font-style: italic;
     font-family: 'Trebuchet MS';
-}
-
-.signature {
-    font-style: italic;
-    font-family: 'Gravity';
-    font-size: 20px;
 }
 
 .dropdown {
@@ -58,7 +74,7 @@ h2 {
 }
   
 .dropdown .dropbtn {
-    font-size: 16px;
+    font-size: 20px;
     border: none;
     outline: none;
     background-color: inherit;
@@ -98,6 +114,67 @@ h2 {
     background-color: #e6d7ff;
 }
 
+figure {
+    margin: auto;
+}
+
+.formalign {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.formbutton {
+    background-color: blueviolet;
+    color: white;
+    width: 20%;
+    border-style: ridge;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.formlabel {
+    color: black;
+}
+
+.formbutton:hover {
+    color: white;
+    background-color: lightcoral;
+    size: 10%;
+}
+
+h1 {
+    margin: 0, 10px, auto, auto;
+    text-align: center;
+    width: 100%;
+}
+
+h2 {
+    text-align: center;
+}
+
+input {
+    background-color: lavender;
+    border-color: aliceblue;
+    color: orchid;
+    margin-top: 10px;
+}
+
+li, td {
+    color: black;
+}
+
+.logo {
+    width: 10%;
+    height: 10%;
+}
+
+main {
+    max-width: 75%;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: left;
+}
+
 nav {
     display: flex;
     justify-content: center;
@@ -108,10 +185,18 @@ nav {
     margin-right: 0.35%;
 }
 
-main {
-    margin-left: 20%;
-    margin-right: 20%;
-    text-align: left;
+.profileimg{
+    margin-top: 20px;
+    width: 50%;
+    border-color: blueviolet;
+    border-style: ridge;
+    border-radius: 25px;
+}
+
+.signature {
+    font-style: italic;
+    font-family: 'Gravity';
+    font-size: 20px;
 }
 
 th, h3{
@@ -133,33 +218,6 @@ table.table2 tr:nth-child(even) {
     background-color: rgba(137, 43, 226, 0.116);
 }
 
-li, td {
-    color: black;
-}
-
-figure {
-    margin: auto;
-}
-
-.formlabel {
-    color: black;
-}
-
-.formalign {
+.validator {
     margin-top: 2%;
-    margin-bottom: 2%;
-}
-
-.formbutton {
-    background-color: blueviolet;
-    color: white;
-    width: 20%;
-    border-style: ridge;
-    padding-top: 1%;
-    padding-bottom: 1%;
-}
-
-.formbutton:hover {
-    color: white;
-    background-color: lightcoral;
 }
