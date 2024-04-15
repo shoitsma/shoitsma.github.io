@@ -14,19 +14,19 @@
     <h1>Sarah Hoitsma's Sleepy Hamster ♡ ITIS 3135 ♡ First Scripts</h1>
     <div id="header"></div>
     <main>
-        <h3 id="date"></h3>
+        <h3 id="date">Date</h3>
         <form onsubmit="responseText(event)">
 			<label for="name">Enter your name:</label><br>
             <input type="text" id="name" name="name" required><br>
             <label for="feeling">How are you feeling today:</label><br>
             <input type="text" id="feeling" name="feeling" required><br>
-			<input type="submit" value="Submit" />
+			<input type="submit" value="Submit">
         </form>
         <p id="response"></p>
         <form onsubmit="polygon(event)">
             <label for="number">Enter a number from 0-10:</label><br>
             <input type="number" id="number" name="number" required><br>
-            <input type="submit" value="Submit" />
+            <input type="submit" value="Submit">
         </form>
         <button type="button" onclick="randomHamsterName(event)">Hamster Name Picker</button>
         <button type="button" onclick="randomHamsterBreed(event)">Hamster Breed Picker</button>

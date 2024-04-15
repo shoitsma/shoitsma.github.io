@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="unsafe-url">
+    <title>Sarah Hoitsma's Sleepy Hamster ♡ ITIS 3135 ♡ Sarah's Overwatch Journey</title>
+    <style>
+        * {
+            background-color: #9DA39A;
+        }
+
+        a:link {
+            color: #5A2328;
+        }
+
+        a:hover {
+            color:#DE6449;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        main {
+            margin: 20px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        h1, h2, p {
+            color: #283F3B;
+        }
+
+        nav {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        button {
+            background-color: #5A2328;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #DE6449;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        figure {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        figcaption {
+            font-style: italic;
+            font-size: 14px;
+            margin-top: 1%;
+            color: #5A2328;
+        }
+
+        .figimg {
+            max-width: 60%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+
+        #lucky {
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+
+        #who, #why, #when, #how {
+            display: none;
+        } 
+    </style>
+    <script>
+        function lucky(event) {
+            event.preventDefault();
+            const randomNum = Math.random();
+            if (randomNum == 42) {
+                alert("You are lucky");
+            } else {
+                alert("You are not lucky");
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>Sarah's Overwatch Journey</h1>
+    <div id="header"></div>
+    <main>
+        <nav>
+			<button onclick="whatDisplay()">Introduction</button>
+			<button onclick="whoDisplay()">About Me</button>
+			<button onclick="whyDisplay()">Why I Play</button>
+			<button onclick="whenDisplay()">The Ranked Experience</button>
+			<button onclick="howDisplay()">How I Improved</button>
+		</nav>
+        <section id="what">
+            <h2>Introduction</h2>
+            <p>
+                Greetings!  Overwatch is a competitive first-person shooter.  The playable characters- known as heroes- are divided into three roles- tank, dps, and support.
+                The responsibilities of each role are complicated but distinct.  Simplified, the roles are explained as tanks being expected to take space and peel for their team,
+                dps being expected to exert constant pressure and confirm kills, and supports being expected to heal their team as well as use their kits to enable their team.
+            </p>
+            <figure>
+                <img class="figimg" src="images/fig1What.jpg" alt="AI generated image of what appears to be a mix between Orisa, Reinhardt, and Tracer">
+                <figcaption>Appears to be a mix between Orisa, Reinhardt, and Tracer.</figcaption>
+            </figure>
+            <p>Prompt: <i>Winston from Overwatch</i></p>
+            <button id="lucky" type="button" onclick="lucky(event)">Are You Lucky?</button>
+        </section>
+        <section id="who">
+            <h2>About Me</h2>
+            <p>
+                I started playing Overwatch in 2023.  I played the game because I thought
+                Wrecking Ball looked fun.  He was my first main and I played him for under
+                60 hours before retiring him forever.  My current mains are D.va, Junker Queen,
+                Ashe, Widowmaker, Ana, and Kiriko.
+            </p>
+            <figure>
+                <img class="figimg" src="images/fig2Who.jpg" alt="Screenshot of the start of an Overwatch game">
+                <figcaption>A screenshot I took.  Our tank is Cyx- a popular streamer.</figcaption>
+            </figure>
+            <button id="lucky" type="button" onclick="lucky(event)">Are You Lucky?</button>
+        </section>
+        <section id="why">
+            <h2>Why I Play</h2>
+            <p>
+                I don't always find the game fun.  Some teams are very frustrating to play against and some games
+                feel unwinnable.  Most of the time I play to improve.  I try to look at every setback and think
+                about how to learn from it.  In the future I hope to achieve master rank on tank and then support
+                followed by dps.  My ultimate goal is to reach grandmaster in possibly all roles.
+            </p>
+            <figure>
+                <img class="figimg" src="images/fig3Why.jpg" alt="Screenshot of a scoreboard of an Overwatch game">
+                <figcaption>There was another popular streamer in one of my games- Yeatle.</figcaption>
+            </figure>
+            <button id="lucky" type="button" onclick="lucky(event)">Are You Lucky?</button>
+        </section>
+        <section id="when">
+            <h2>The Ranked Experience</h2>
+            <p>
+                The ranking system in Overwatch goes like this: bronze → silver → gold → platinum → diamond →
+                master → grandmaster → champion.  The lowest rank is bronze and the highest is the recently added champion rank.
+                The majority of the player base is in gold/platinum.  There are five subdivisions within each rank, with 5 being
+                the lowest and 1 being the highest within that rank.
+            </p>
+            <p>
+                My first ever tank placement was gold 1 and I finished the end of the season at platinum 5.
+                This was a huge milestone for me because I had officially become a platinum tank player.  I placed
+                platinum 3 on dps and gold 2 on support.  For the first 400 hours of my playing the game I was a platinum
+                player.  I then reached another huge milestone on tank when I hit diamond 5.  I had officially
+                become a diamond tank player.  I then pursued diamond on other roles.  Somewhere between 400-600
+                hours I became a diamond support player and finally a diamond dps player.  I came close to master rank
+                on support at diamond 1 but then a rank reset occured and I have to work my way up from platinum again.
+            </p>
+            <figure>
+                <img class="figimg" src="images/fig4When.jpg" alt="Screenshot of a diamond 2 rank-up screen">
+                <figcaption>I won 5 games/lost 6 and ranked up because of my MMR.</figcaption>
+            </figure>
+            <button id="lucky" type="button" onclick="lucky(event)">Are You Lucky?</button>
+        </section>
+        <section id="how">
+            <h2>How I Improved</h2>
+            <ul>
+                <li>I chose a few heroes from each role to practice and got familiar with their kits as well
+                    as how to play them into different team compositions</li>
+                <li>I played in higher ranked lobbies so that my mistakes were more likely to be punished
+                    and I learned not to repeat them</li>
+                <li>I played the game for at least a few hours a day everyday</li>
+            </ul>
+            <figure>
+                <img class="figimg" src="images/fig5How.jpg" alt="Screenshot of a game replay with Doomfist in it">
+                <figcaption>A frame from a replay I found funny.</figcaption>
+            </figure>
+            <button id="lucky" type="button" onclick="lucky(event)">Are You Lucky?</button>
+        </section>
+    </main>
+    <div id="footer" style="text-align: center;">
+        <p><i>Hamster Powered Up</i></p>
+        <p>Page built by <a href="../hoitsmaontheputer.com/">Hoitsma on the Puter, </a><a href="https://www.freecodecamp.org/certification/shoitsma/responsive-web-design">Certified in RWD</a>&copy; 2024</p>
+        <a href= "https://validator.w3.org/check?uri=referer" id="validation_link_html" style="text-decoration:none;">
+            <img src = "images/html_icon.png" alt="HTML referer" class="validator">
+        </a>
+        <a href="https://jigsaw.w3.org/css-validator/check/referer" id="validation_link_css">
+            <img src = "images/css_icon.png" alt="CSS referer" class="validator">
+        </a>
+        <a href="https://wave.webaim.org/report#/https://webpages.charlotte.edu/shoitsma/itis3135/hobby/index.html" id="validation_link_wcag">
+            <img src = "images/wcag_icon.png" alt="WCAG referer" class="validator">
+        </a>
+    </div>
+    <script src="displayScripts.js"></script>
+</body>
+</html>

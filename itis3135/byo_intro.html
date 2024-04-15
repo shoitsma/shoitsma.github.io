@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="referrer" content="unsafe-url">
+    <title>Sarah Hoitsma's Sleepy Hamster ♡ ITIS 3135 ♡ BYO Intro</title>
+	<link rel="icon" type="image/x-icon" href="images/favicon.jpg">
+    <link rel="stylesheet" href="styles/default.css">
+	<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="./scripts/partials.js"></script>
+</head>
+<body>
+	<h1>Sarah Hoitsma's Sleepy Hamster ♡ ITIS 3135 ♡ BYO Intro</h1>
+    <div id="header"></div>
+    <main>
+        <h2>Time to BYO Intro page, please fill out the form below so we can create your own page.</h2>
+        <form id="form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Sarah Hoitsma" required><br>
+            <label for="mascot">Mascot:</label>
+            <input type="text" id="mascot" name="mascot" placeholder="Sleepy Hamster" required><br>
+            <label for="image">Image:</label>
+            <input type="file" id="image" name="image" onchange="return fileValidation()"><br>
+            <label for="caption">Caption:</label>
+            <input type="text" id="caption" name="caption" placeholder="Hamster running on a wheel" required><br>
+            <label for="personalbackground">Personal Background:</label>
+            <input type="text" id="personalbackground" name="personalbackground" placeholder="Grew up in NYC" required><br>
+            <label for="profbackground">Professional Background:</label>
+            <input type="text" id="profbackground" name="profbackground" placeholder="CTO of Sleepy Hamster Hoitsma" required><br>
+            <label for="academicbackground">Academic Background:</label>
+            <input type="text" id="academicbackground" name="academicbackground" placeholder="Attended an IB high school" required><br>
+            <label for="webdevbackground">Background in Web Development:</label>
+            <input type="text" id="webdevbackground" name="webdevbackground" placeholder="Created a personal website" required><br>
+            <label for="compplatform">Primary Computer Platform:</label>
+            <input type="text" id="compplatform" name="compplatform" placeholder="ROG Zephyrus G14" required><br>
+            <div id="courses"></div>
+            <button id="add-course-btn">Add courses you are taking</button><br><br>
+            <label for="funny">Funny Thing?:</label>
+            <input type="text" id="funny" name="funny" placeholder="I meet someone, I am cheesed to meet them, they leave"><br>
+            <label for="more">Anything Else?:</label>
+            <input type="text" id="more" name="more" placeholder="Cheesed to meet you"><br><br>
+            <input type="checkbox" id="check" name="check" required>
+            <label for="check">I understand that what is on this page is not password protected and I will not put anything here that I don’t want publicly available.</label><br><br>
+            <input type="submit" value="Submit" onclick="displayForm()">
+        </form>
+    </main>
+    <div id="footer"></div>
+    <script src="./scripts/survey.js"></script>
+</body>

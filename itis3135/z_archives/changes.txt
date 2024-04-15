@@ -1,4 +1,5 @@
 Change between FileZilla and GitHub:
-
-footer.html
-hoitsmaontheputer/index.html
+header.html - GitHub
+footer.html - GitHub
+hoitsmaontheputer/index.html - GitHub
+sillywatch_bootcamp/components/footer.html - GitHub
